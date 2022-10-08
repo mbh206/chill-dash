@@ -12,7 +12,7 @@ a {
     -o-background-size: cover;
     background-size: cover;
     color: white;
-    font-size: 1rem;
+    font-size: .9rem;
     font-family: Arial, Helvetica, sans-serif;
     text-decoration: none;
     text-shadow: 1px 1px 3px #000;;
@@ -47,16 +47,16 @@ main {
 }
 
 #time {
-    font-size: 3rem;
-    width: 200px;
+    font-size: 2.5rem;
+    width: 150px;
 }
 
 #date {
-    font-size: 1.5rem;
+    font-size: 1.2rem;
 }
 
 #weather span {
-    font-size: 3rem;
+    font-size: 2.5rem;
     font-weight: bold;
 }
 
@@ -79,9 +79,9 @@ form {
 #form-wrapper {
     display: flex;
     background-color: rgb(243, 241, 241);
-    padding:15px 30px;
+    padding:5px 10px;
     border-radius: 50px;
-    width:80%
+    width:80%;
 }
 form-wrapper:focus {
     border-radius: 5px;
@@ -93,7 +93,7 @@ form-wrapper:focus {
 }
 
 input {
-    font-size: 1.7rem;
+    font-size: 1.5rem;
     background-color: rgb(243, 241, 241);
     border:0;
     width:85%
